@@ -1,0 +1,44 @@
+header{
+    padding-top: 5px;
+    background-color: #000000;
+    color: white;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        list-style: none;
+    text-decoration: none;
+    gap: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        flex-direction: column; 
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    nav ul {
+        gap: 20px; 
+        padding: 0;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    nav ul {
+        gap: 10px;
+        font-size: 14px;
+    }
+}

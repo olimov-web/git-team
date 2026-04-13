@@ -1,0 +1,90 @@
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: sans-serif;
+}
+.btn1{
+ width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #FAFF00;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.yozu{
+    flex-direction: column;
+}
+.card1{
+    display: flex;
+    gap: 20px;
+    
+}
+
+@media (max-width: 992px) {
+    main {
+        flex-direction: column; 
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .left {
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    main img {
+        width: 80%; 
+        height: auto;
+    }
+
+    .main {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    h1[style*="paddingLeft: '220px'"] {
+        padding-left: 0 !important;
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .card1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 0 !important; 
+    }
+
+    .yozu h5 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .yozu p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    
+    .left1, .right1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
