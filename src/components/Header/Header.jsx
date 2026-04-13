@@ -3,6 +3,7 @@ import './Header.css'
 
 const Header = () => {
   return (
+<<<<<<< HEAD
     <div>
       <header>
       <div className="logo">
@@ -19,6 +20,9 @@ const Header = () => {
       </header>
     </div>
     
+=======
+    <div></div>
+>>>>>>> 754b53f51aafd9cf5feeb92ce4778fe0155e7bc9
   )
 }
 

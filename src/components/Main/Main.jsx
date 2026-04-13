@@ -9,6 +9,7 @@ import img4 from '../../assets/card4.png'
 
 const Main = () => {
   return (
+<<<<<<< HEAD
     <div>
       <main>
         <div className="left">
@@ -59,6 +60,9 @@ const Main = () => {
 
       </div>
     </div>
+=======
+    <div></div>
+>>>>>>> 754b53f51aafd9cf5feeb92ce4778fe0155e7bc9
   )
 }
 
